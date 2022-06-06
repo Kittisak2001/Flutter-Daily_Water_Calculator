@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Daily Water Calculator'),
     );
   }
 }
@@ -35,10 +35,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _calculate() {
     setState(() {
-      _result = double.parse(weightController.text)*2.2*30/2;
+      _result = double.parse(weightController.text) * 2.2 * 30 / 2;
     });
-
-
   }
 
   @override
@@ -47,10 +45,15 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(
+      body: SingleChildScrollView(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
+            Image.asset(
+              'assets/images/water.png',
+              width: double.infinity,
+              fit: BoxFit.fitWidth,
+            ),
             Text(
               'You should drink water a day.',
             ),
@@ -62,11 +65,16 @@ class _MyHomePageState extends State<MyHomePage> {
               'ml.',
             ),
             TextField(
+                textAlign: TextAlign.center,
                 controller: weightController,
                 decoration: InputDecoration(
                   hintText: 'Your Weight ? (kg.)',
                 )),
-            FlatButton(onPressed: _calculate, child: Text("Cal"), color: Colors.grey  ,),
+            FlatButton(
+              onPressed: _calculate,
+              child: Text("Cal"),
+              color: Colors.grey,
+            ),
           ],
         ),
       ),
