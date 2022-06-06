@@ -1,16 +1,17 @@
-# flutter_learn
+# Daily Water Calculator Application (flutter)
 
-A new Flutter project.
+- Home Screen [page 1]
 
-## Getting Started
+Before enter weight
 
-This project is a starting point for a Flutter application.
+![page1](https://user-images.githubusercontent.com/100192085/172130280-492d2050-0f67-4989-8615-ae27a4c23559.jpg)
 
-A few resources to get you started if this is your first Flutter project:
+After enter weight
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![after](https://user-images.githubusercontent.com/100192085/172130399-47943aa6-e076-4e31-9e22-e831c85a4688.jpg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Credit BrontoDev <br /> 
+[EP 1] : https://www.youtube.com/watch?v=ZSKddaLLRKw&ab_channel=BorntoDev <br />
+[Ep 2] : https://www.youtube.com/watch?v=5Al7XHaoywc&ab_channel=BorntoDev <br />
+[EP 3] : https://www.youtube.com/watch?v=jf3K4IFA37U&ab_channel=BorntoDev <br />
+[EP 4] : https://www.youtube.com/watch?v=bOezfG64y5Y&ab_channel=BorntoDev <br />
